@@ -1,7 +1,8 @@
-# MovingMouse
+= MovingMouse
 
 This project is just three projects of me discovering how to move the mouse in java they all are one file because they are really simple and their differences are very small, the code has been created for the AFK one and it was copied then modified for the other two projects.
-### The three projects are:
+
+=== The three projects are:
 
 * link:/Afk[Afk] : This projects simply moves the mouse around to a random location on the screen every 800-12000 milliseconds.
 * link:/BouncyMouse[Bouncy Mouse] : This projects moves your mouse and bounces against the edges of your screen, it's quite useless to be honest.
