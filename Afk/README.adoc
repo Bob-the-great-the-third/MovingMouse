@@ -1,46 +1,7 @@
-= Simulateur d'activité
-Jean-Michel Bruel <jbruel@gmail.com>
-v22.1, 2022-09-04 : BUT 2 version
-//v1, 2022-02-20 : Initial draft
-:icons: font
-:diagrams: .
-:experimental:
-:classroom-link: https://classroom.github.com/a/gWXnQmIT
-:imagesdir: images
+= Activity emulator
 
-//---------------------------------------------------------------
+This projects allows to generate a runnable java file permitting :
 
-= LIEN GITLAB : https://gitlab.com/kentuckykawok/tp1-qualite-delaplagne-lovin
-
-Ce projet permet la génération d'un executable permettant :
-
- ** D'empêcher la mise en veille automatique du pc sans l'affecter directement
- ** D'apparaître (potentiellement) actif sur zoom ou d'autre système de tracking d'activité des employés
-
-Pour pouvoir l'utiliser il faudra.
-
-. Lancer `mvn clean`
-+
-C'est une bonne habitude à prendre (de nettoyer tout ce qui a pu se passer avant).
-+
-. Lancer `mvn compile`
-+
-image::success1.png["Erreur éliminée", width=80%]
-+
-. Observez la création du répertoire `target` qui contient entre autre la version compilée `HelloJava.class` dans le répertoire `target/classes`.
-+
-. Une fois que vous avez réussi à compiler (`mvn compile`), lancez la fabrication d'une version exécutable :
-+
-....
-mvn package
-....
-+
-. Observez la création du fichier JAR et testez-le :
-....
-java -jar target/tp_qualite-1.0.jar
-....
-
-.Et voilà!
-image::success2.png["Ca run!", width=80%]
-
+ ** To emulate (probably (not tested)) activity on zoom or other activity tracking softwares.
+ ** To forbid your computer from going into sleeping mode (easily).
 
