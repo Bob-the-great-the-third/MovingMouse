@@ -6,7 +6,7 @@ This project is just three projects of me discovering how to move the mouse in j
 
 * link:/Afk[Afk] : This projects simply moves the mouse around to a random location on the screen every 800-12000 milliseconds.
 * link:/BouncyMouse[Bouncy Mouse] : This projects moves your mouse and bounces against the edges of your screen, it's quite useless to be honest.
-* link:/BouncyDvd[Bouncing Dvd Logo] : This projects puts a Dvd logo at the front of your screen that bounces like on old TVs.
+* link:/BouncyDvd[Bouncy Dvd Logo] : This projects puts a Dvd logo at the front of your screen that bounces like on old TVs.
 
 Everyone of these apps can only be closed with Alt-F4 or the task manager (close button deemed obsolete).
 They also need to be activated once launched by either pressing the button or pressing space, same thing to desable. But if the window loses focus the button is unreachable.
